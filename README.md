@@ -3,9 +3,11 @@ A great addon for Horion that adds many blocks and activities to do in Minecraft
 
 
 ---------------------------------------
+
 NOTE: Features Listed in "Coming Soon" are not final and are subject to change in the future.
 
 This pack is not released quite yet
+
 ---------------------------------------
 
 Added:
