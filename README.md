@@ -35,6 +35,7 @@ Horion Purifier (Similar to crafting table or furnace)
 ---------------------------------------
 
 Horion:
+
 Horion Ingot, 
 Horion Sword
 
