@@ -1,0 +1,156 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Horion Addon RS\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "f2ea4fe6_7ffc_4d8a_9adf_c75b96a6556b",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"horion_block": {
+							"textures": "textures/blocks/horion_block"
+						},
+						"horion_crystal": {
+							"textures": "textures/blocks/horion_crystal"
+						},
+						"hackstone": {
+							"textures": "textures/blocks/hackstone"
+						},
+						"charred_smooth_stone": {
+							"textures": "textures/blocks/charred_smooth_stone"
+						}
+					}
+				},
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"horion_block": {
+							"textures": "textures/blocks/horion_block"
+						},
+						"horion_crystal": {
+							"textures": "textures/blocks/horion_crystal"
+						},
+						"hackstone": {
+							"textures": "textures/blocks/hackstone"
+						},
+						"charred_smooth_stone": {
+							"textures": "textures/blocks/charred_smooth_stone"
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"horion_block": {
+								"textures": "textures/blocks/horion_block"
+							},
+							"horion_crystal": {
+								"textures": "textures/blocks/horion_crystal"
+							},
+							"hackstone": {
+								"textures": "textures/blocks/hackstone"
+							},
+							"charred_smooth_stone": {
+								"textures": "textures/blocks/charred_smooth_stone"
+							}
+						},
+						"key": "horion_block",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/horion_block"
+						}
+					},
+					{
+						"open": {
+							"horion_block": {
+								"textures": "textures/blocks/horion_block"
+							},
+							"horion_crystal": {
+								"textures": "textures/blocks/horion_crystal"
+							},
+							"hackstone": {
+								"textures": "textures/blocks/hackstone"
+							},
+							"charred_smooth_stone": {
+								"textures": "textures/blocks/charred_smooth_stone"
+							}
+						},
+						"key": "horion_crystal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/horion_crystal"
+						}
+					},
+					{
+						"open": {
+							"horion_block": {
+								"textures": "textures/blocks/horion_block"
+							},
+							"horion_crystal": {
+								"textures": "textures/blocks/horion_crystal"
+							},
+							"hackstone": {
+								"textures": "textures/blocks/hackstone"
+							},
+							"charred_smooth_stone": {
+								"textures": "textures/blocks/charred_smooth_stone"
+							}
+						},
+						"key": "hackstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/hackstone"
+						}
+					},
+					{
+						"open": {
+							"horion_block": {
+								"textures": "textures/blocks/horion_block"
+							},
+							"horion_crystal": {
+								"textures": "textures/blocks/horion_crystal"
+							},
+							"hackstone": {
+								"textures": "textures/blocks/hackstone"
+							},
+							"charred_smooth_stone": {
+								"textures": "textures/blocks/charred_smooth_stone"
+							}
+						},
+						"key": "charred_smooth_stone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/charred_smooth_stone"
+						}
+					}
+				]
+			}
+		]
+	}
+}

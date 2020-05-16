@@ -1,0 +1,24 @@
+//bridge-file-version: #9
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"horion:horion_crystal": {
+		"textures": "horion_crystal",
+		"sound": "glass"
+	},
+	"horion:horion_block": {
+		"textures": "horion_block",
+		"sound": "stone"
+	},
+	"horion:hackstone": {
+		"textures": "hackstone",
+		"sound": "stone"
+	},
+	"horion:charred_smooth_stone": {
+		"textures": "charred_smooth_stone",
+		"sound": "stone"
+	}
+}

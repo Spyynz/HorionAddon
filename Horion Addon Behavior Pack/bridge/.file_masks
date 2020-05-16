@@ -1,0 +1,172 @@
+{
+	"BP/blocks/horion_block.json": {
+		"data": {}
+	},
+	"RP/ RS/blocks.json": {
+		"data": {}
+	},
+	"RP/ RS/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {
+			"item_component@general": {
+				"minecraft:entity": {
+					"description": {
+						"animations": {
+							"bridge_custom_item_behavior": "controller.animation.bridge_custom_item_behavior"
+						},
+						"scripts": {
+							"animate": [
+								"bridge_custom_item_behavior"
+							]
+						}
+					}
+				}
+			},
+			"item_component@53395598_baeb_43a4_b23a_974d662a9200": {
+				"minecraft:entity": {
+					"component_groups": {
+						"bridge:default_player": {
+							"minecraft:attack": {
+								"damage": 1
+							}
+						},
+						"bridge:equipped_53395598_baeb_43a4_b23a_974d662a9200": {
+							"minecraft:attack": {
+								"damage": 9
+							}
+						}
+					},
+					"events": {
+						"bridge:on_reset_player": {
+							"add": {
+								"component_groups": [
+									"bridge:default_player"
+								]
+							}
+						},
+						"bridge:on_equipped_53395598_baeb_43a4_b23a_974d662a9200": {
+							"add": {
+								"component_groups": [
+									"bridge:equipped_53395598_baeb_43a4_b23a_974d662a9200"
+								]
+							}
+						},
+						"bridge:on_unequipped_53395598_baeb_43a4_b23a_974d662a9200": {
+							"remove": {
+								"component_groups": [
+									"bridge:equipped_53395598_baeb_43a4_b23a_974d662a9200"
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"8c7f1bcc_f637_4179_bc5e_6eaa35d5c878": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"53395598_baeb_43a4_b23a_974d662a9200": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_gamersword": "query.get_equipped_item_name(0, 0) == 'gamersword'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_gamersword": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'gamersword'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_53395598_baeb_43a4_b23a_974d662a9200"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_53395598_baeb_43a4_b23a_974d662a9200"
+								]
+							}
+						}
+					}
+				}
+			},
+			"81854cc0_3fa6_40ea_a479_39815ecdb459": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/horion_shard.json": {
+		"data": {}
+	},
+	"RP/ RS/items/horion_ore.json": {
+		"data": {}
+	},
+	"RP/ RS/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/blocks/hackstone.json": {
+		"data": {}
+	},
+	"BP/recipes/charred_smooth_stone.json": {
+		"data": {}
+	},
+	"BP/recipes/hackstone.json": {
+		"data": {}
+	},
+	"RP/ RS/items/gamersword.json": {
+		"data": {}
+	},
+	"BP/items/gamersword.json": {
+		"data": {}
+	},
+	"BP/items/gamer_ingot.json": {
+		"data": {}
+	},
+	"RP/ RS/items/gamer_ingot.json": {
+		"data": {}
+	},
+	"BP/blocks/charred_smooth_stone.json": {
+		"data": {}
+	},
+	"BP/loot_tables/horion_crystal_loot.json/horion_ore_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/horion_crystal.json/horion_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/horion_crystal.json": {
+		"data": {}
+	},
+	"BP/entities/DLL_Not_Loaded.json": {
+		"data": {}
+	},
+	"RP/ RS/entity/DLL_Not_Loaded.json": {
+		"data": {}
+	}
+}

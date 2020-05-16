@@ -1,0 +1,20 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "horion:DLL_Not_Loaded",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:attack": {
+				"damage": 4,
+				"effect_name": "weakness"
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

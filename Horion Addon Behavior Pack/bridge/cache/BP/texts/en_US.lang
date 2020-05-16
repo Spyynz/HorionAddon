@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Horion Addon\\texts\\en_US.lang",
+	"file_type": "lang",
+	"format_version": 0,
+	"file_uuid": "a8ae66ad_fa02_4b71_8a3a_eb9dcde04f0f",
+	"file_version": 1,
+	"cache_content": "pack.name=Horion Addon\npack.description=gaming not not gaming\ntile.horion:horion_block=Horion Block\ntile.horion:horion_crystal.name=Horion Crystal Ore\nitem.horion:horion_shard.name=Horion Shard"
+}

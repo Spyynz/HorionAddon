@@ -1,0 +1,6 @@
+##bridge-file-version: #1
+pack.name=Horion Addon
+pack.description=gaming not not gaming
+tile.horion:horion_block=Horion Block
+tile.horion:horion_crystal.name=Horion Crystal Ore
+item.horion:horion_shard.name=Horion Shard

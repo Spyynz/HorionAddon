@@ -1,0 +1,217 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Horion Addon/recipes/hackstone.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "405dacba_f848_4dc1_950d_189672cab973",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "horion:hackstone"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"key": {
+							"=": {
+								"item": "horion:charred_smooth_stone"
+							}
+						},
+						"pattern": [
+							"===",
+							"===",
+							"==="
+						],
+						"result": [
+							{
+								"item": "horion:hackstone"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:hackstone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"=": {
+									"item": "horion:charred_smooth_stone"
+								}
+							},
+							"pattern": [
+								"===",
+								"===",
+								"==="
+							],
+							"result": [
+								{
+									"item": "horion:hackstone"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "horion:hackstone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:hackstone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"=": {
+									"item": "horion:charred_smooth_stone"
+								}
+							},
+							"pattern": [
+								"===",
+								"===",
+								"==="
+							],
+							"result": [
+								{
+									"item": "horion:hackstone"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"array": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:hackstone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"=": {
+									"item": "horion:charred_smooth_stone"
+								}
+							},
+							"pattern": [
+								"===",
+								"===",
+								"==="
+							],
+							"result": [
+								{
+									"item": "horion:hackstone"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"=": {
+										"item": "horion:charred_smooth_stone"
+									}
+								},
+								"key": "=",
+								"is_minified": true,
+								"children": {
+									"item": "horion:charred_smooth_stone"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:hackstone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"=": {
+									"item": "horion:charred_smooth_stone"
+								}
+							},
+							"pattern": [
+								"===",
+								"===",
+								"==="
+							],
+							"result": [
+								{
+									"item": "horion:hackstone"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"array": [
+							"===",
+							"===",
+							"==="
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:hackstone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"=": {
+									"item": "horion:charred_smooth_stone"
+								}
+							},
+							"pattern": [
+								"===",
+								"===",
+								"==="
+							],
+							"result": [
+								{
+									"item": "horion:hackstone"
+								}
+							]
+						},
+						"key": "result",
+						"array": [
+							{
+								"open": [
+									{
+										"item": "horion:hackstone"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "horion:hackstone"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

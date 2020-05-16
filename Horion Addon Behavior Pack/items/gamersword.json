@@ -1,0 +1,16 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "horion:gamersword"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:max_damage": 4500,
+			"minecraft:hand_equipped": true,
+			"minecraft:use_duration": 1,
+			"bridge:weapon_damage": 9
+		}
+	}
+}

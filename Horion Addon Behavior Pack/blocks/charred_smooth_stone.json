@@ -1,0 +1,19 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "horion:charred_smooth_stone",
+			"register_to_creative_menu": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": {
+				"value": 1.5
+			},
+			"minecraft:map_color": {
+				"color": "#4B4B4B"
+			}
+		}
+	}
+}

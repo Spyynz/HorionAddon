@@ -1,0 +1,111 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Horion Addon\\entities\\DLL_Not_Loaded.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "1a0b5299_a255_47cb_9a64_b45b72b164bf",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "horion:DLL_Not_Loaded",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:attack": {
+								"damage": 4,
+								"effect_name": "weakness"
+							}
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "horion:DLL_Not_Loaded",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:attack": {
+								"damage": 4,
+								"effect_name": "weakness"
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:DLL_Not_Loaded",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:attack": {
+									"damage": 4,
+									"effect_name": "weakness"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "horion:DLL_Not_Loaded",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:DLL_Not_Loaded",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:attack": {
+									"damage": 4,
+									"effect_name": "weakness"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:attack": {
+										"damage": 4,
+										"effect_name": "weakness"
+									}
+								},
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 4,
+									"effect_name": "weakness"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

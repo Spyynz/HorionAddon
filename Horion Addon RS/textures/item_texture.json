@@ -1,0 +1,16 @@
+//bridge-file-version: #4
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"horion_shard": {
+			"textures": "textures/items/horion_shard"
+		},
+		"gamer_ingot": {
+			"textures": "textures/items/gamer_ingot"
+		},
+		"gamersword": {
+			"textures": "textures/items/gamersword"
+		}
+	}
+}

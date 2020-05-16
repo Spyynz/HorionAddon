@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Horion Addon RS\\items\\horion_ore.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "c7878f8a_3587_4fb1_9c1b_d10be9666ca9",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "horion:horion_ore",
+							"category": "Nature"
+						},
+						"components": {
+							"minecraft:icon": "horion_ore",
+							"minecraft:render_offsets": "tools"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:horion_ore",
+								"category": "Nature"
+							},
+							"components": {
+								"minecraft:icon": "horion_ore",
+								"minecraft:render_offsets": "tools"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "horion:horion_ore",
+							"category": "Nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:horion_ore",
+								"category": "Nature"
+							},
+							"components": {
+								"minecraft:icon": "horion_ore",
+								"minecraft:render_offsets": "tools"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "horion_ore",
+							"minecraft:render_offsets": "tools"
+						}
+					}
+				]
+			}
+		]
+	}
+}

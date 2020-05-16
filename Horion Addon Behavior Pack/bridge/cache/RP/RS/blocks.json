@@ -1,0 +1,167 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Horion Addon RS\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "423b1b3f_eee5_4385_81a7_5a89d017b9a0",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"horion:horion_crystal": {
+						"textures": "horion_crystal",
+						"sound": "glass"
+					},
+					"horion:horion_block": {
+						"textures": "horion_block",
+						"sound": "stone"
+					},
+					"horion:hackstone": {
+						"textures": "hackstone",
+						"sound": "stone"
+					},
+					"horion:charred_smooth_stone": {
+						"textures": "charred_smooth_stone",
+						"sound": "stone"
+					}
+				},
+				"key": "format_version",
+				"is_minified": true,
+				"array": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"horion:horion_crystal": {
+						"textures": "horion_crystal",
+						"sound": "glass"
+					},
+					"horion:horion_block": {
+						"textures": "horion_block",
+						"sound": "stone"
+					},
+					"horion:hackstone": {
+						"textures": "hackstone",
+						"sound": "stone"
+					},
+					"horion:charred_smooth_stone": {
+						"textures": "charred_smooth_stone",
+						"sound": "stone"
+					}
+				},
+				"key": "horion:horion_crystal",
+				"is_minified": true,
+				"children": {
+					"textures": "horion_crystal",
+					"sound": "glass"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"horion:horion_crystal": {
+						"textures": "horion_crystal",
+						"sound": "glass"
+					},
+					"horion:horion_block": {
+						"textures": "horion_block",
+						"sound": "stone"
+					},
+					"horion:hackstone": {
+						"textures": "hackstone",
+						"sound": "stone"
+					},
+					"horion:charred_smooth_stone": {
+						"textures": "charred_smooth_stone",
+						"sound": "stone"
+					}
+				},
+				"key": "horion:horion_block",
+				"is_minified": true,
+				"children": {
+					"textures": "horion_block",
+					"sound": "stone"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"horion:horion_crystal": {
+						"textures": "horion_crystal",
+						"sound": "glass"
+					},
+					"horion:horion_block": {
+						"textures": "horion_block",
+						"sound": "stone"
+					},
+					"horion:hackstone": {
+						"textures": "hackstone",
+						"sound": "stone"
+					},
+					"horion:charred_smooth_stone": {
+						"textures": "charred_smooth_stone",
+						"sound": "stone"
+					}
+				},
+				"key": "horion:hackstone",
+				"is_minified": true,
+				"children": {
+					"textures": "hackstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"horion:horion_crystal": {
+						"textures": "horion_crystal",
+						"sound": "glass"
+					},
+					"horion:horion_block": {
+						"textures": "horion_block",
+						"sound": "stone"
+					},
+					"horion:hackstone": {
+						"textures": "hackstone",
+						"sound": "stone"
+					},
+					"horion:charred_smooth_stone": {
+						"textures": "charred_smooth_stone",
+						"sound": "stone"
+					}
+				},
+				"key": "horion:charred_smooth_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "charred_smooth_stone",
+					"sound": "stone"
+				}
+			}
+		]
+	}
+}

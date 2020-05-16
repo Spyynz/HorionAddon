@@ -1,0 +1,170 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Horion Addon\\blocks\\horion_crystal.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5d0a2ba8_72d1_4eff_94c5_9edc5d3a2e22",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "horion:horion_crystal",
+							"register_to_creative_menu": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": {
+								"value": 0.5
+							},
+							"minecraft:block_light_emission": {
+								"emission": 0.2
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/horion_crystal_loot.json"
+							},
+							"minecraft:map_color": {
+								"color": "#364D49"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:horion_crystal",
+								"register_to_creative_menu": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 0.5
+								},
+								"minecraft:block_light_emission": {
+									"emission": 0.2
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/horion_crystal_loot.json"
+								},
+								"minecraft:map_color": {
+									"color": "#364D49"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "horion:horion_crystal",
+							"register_to_creative_menu": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:horion_crystal",
+								"register_to_creative_menu": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 0.5
+								},
+								"minecraft:block_light_emission": {
+									"emission": 0.2
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/horion_crystal_loot.json"
+								},
+								"minecraft:map_color": {
+									"color": "#364D49"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 0.5
+									},
+									"minecraft:block_light_emission": {
+										"emission": 0.2
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/horion_crystal_loot.json"
+									},
+									"minecraft:map_color": {
+										"color": "#364D49"
+									}
+								},
+								"key": "minecraft:destroy_time",
+								"is_minified": true,
+								"children": {
+									"value": 0.5
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 0.5
+									},
+									"minecraft:block_light_emission": {
+										"emission": 0.2
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/horion_crystal_loot.json"
+									},
+									"minecraft:map_color": {
+										"color": "#364D49"
+									}
+								},
+								"key": "minecraft:block_light_emission",
+								"is_minified": true,
+								"children": {
+									"emission": 0.2
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 0.5
+									},
+									"minecraft:block_light_emission": {
+										"emission": 0.2
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/horion_crystal_loot.json"
+									},
+									"minecraft:map_color": {
+										"color": "#364D49"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/horion_crystal_loot.json"
+								}
+							},
+							{
+								"key": "minecraft:map_color",
+								"is_minified": true,
+								"children": {
+									"color": "#364D49"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,189 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Horion Addon\\loot_tables\\horion_ore_loot.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "9d236feb_6354_497c_818b_b297d801d5f6",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"entries": [
+								{
+									"type": "item",
+									"name": "horion:horion_shard",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 2,
+												"max": 6
+											}
+										}
+									]
+								}
+							],
+							"rolls": 1
+						}
+					]
+				},
+				"key": "pools",
+				"array": [
+					{
+						"open": [
+							{
+								"entries": [
+									{
+										"type": "item",
+										"name": "horion:horion_shard",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 2,
+													"max": 6
+												}
+											}
+										]
+									}
+								],
+								"rolls": 1
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"entries": [
+										{
+											"type": "item",
+											"name": "horion:horion_shard",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 6
+													}
+												}
+											]
+										}
+									],
+									"rolls": 1
+								},
+								"key": "entries",
+								"array": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "horion:horion_shard",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 6
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"type": "item",
+													"name": "horion:horion_shard",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 2,
+																"max": 6
+															}
+														}
+													]
+												},
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "horion:horion_shard",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "horion:horion_shard",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 2,
+																"max": 6
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"array": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 2,
+																	"max": 6
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 2,
+																		"max": 6
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 2,
+																	"max": 6
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "1",
+								"key": "rolls"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

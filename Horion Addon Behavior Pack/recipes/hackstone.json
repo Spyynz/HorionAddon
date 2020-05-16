@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "horion:hackstone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"=": {
+				"item": "horion:charred_smooth_stone"
+			}
+		},
+		"pattern": [
+			"===",
+			"===",
+			"==="
+		],
+		"result": [
+			{
+				"item": "horion:hackstone"
+			}
+		]
+	}
+}

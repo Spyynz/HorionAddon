@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_custom_item_behavior": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"holds_gamersword": "query.get_equipped_item_name(0, 0) == 'gamersword'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_reset_player"
+					]
+				},
+				"holds_gamersword": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'gamersword'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_53395598_baeb_43a4_b23a_974d662a9200"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_53395598_baeb_43a4_b23a_974d662a9200"
+					]
+				}
+			}
+		}
+	}
+}

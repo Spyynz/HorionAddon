@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Horion Addon RS/items/gamersword.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "031859f4_4e14_4314_88c1_0b06d0ba59a7",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "horion:gamersword",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": "gamersword",
+							"minecraft:render_offsets": "tools"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:gamersword",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "gamersword",
+								"minecraft:render_offsets": "tools"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "horion:gamersword",
+							"category": "Equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:gamersword",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "gamersword",
+								"minecraft:render_offsets": "tools"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "gamersword",
+							"minecraft:render_offsets": "tools"
+						}
+					}
+				]
+			}
+		]
+	}
+}

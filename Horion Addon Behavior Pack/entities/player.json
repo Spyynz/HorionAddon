@@ -1,0 +1,50 @@
+//bridge-file-version: #0
+{
+	"minecraft:entity": {
+		"description": {
+			"animations": {
+				"bridge_custom_item_behavior": "controller.animation.bridge_custom_item_behavior"
+			},
+			"scripts": {
+				"animate": [
+					"bridge_custom_item_behavior"
+				]
+			}
+		},
+		"component_groups": {
+			"bridge:default_player": {
+				"minecraft:attack": {
+					"damage": 1
+				}
+			},
+			"bridge:equipped_53395598_baeb_43a4_b23a_974d662a9200": {
+				"minecraft:attack": {
+					"damage": 9
+				}
+			}
+		},
+		"events": {
+			"bridge:on_reset_player": {
+				"add": {
+					"component_groups": [
+						"bridge:default_player"
+					]
+				}
+			},
+			"bridge:on_equipped_53395598_baeb_43a4_b23a_974d662a9200": {
+				"add": {
+					"component_groups": [
+						"bridge:equipped_53395598_baeb_43a4_b23a_974d662a9200"
+					]
+				}
+			},
+			"bridge:on_unequipped_53395598_baeb_43a4_b23a_974d662a9200": {
+				"remove": {
+					"component_groups": [
+						"bridge:equipped_53395598_baeb_43a4_b23a_974d662a9200"
+					]
+				}
+			}
+		}
+	}
+}

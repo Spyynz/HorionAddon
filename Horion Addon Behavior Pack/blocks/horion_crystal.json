@@ -1,0 +1,25 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "horion:horion_crystal",
+			"register_to_creative_menu": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": {
+				"value": 0.5
+			},
+			"minecraft:block_light_emission": {
+				"emission": 0.2
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/horion_crystal_loot.json"
+			},
+			"minecraft:map_color": {
+				"color": "#364D49"
+			}
+		}
+	}
+}

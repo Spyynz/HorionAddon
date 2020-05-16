@@ -1,0 +1,21 @@
+//bridge-file-version: #6
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"horion_block": {
+			"textures": "textures/blocks/horion_block"
+		},
+		"horion_crystal": {
+			"textures": "textures/blocks/horion_crystal"
+		},
+		"hackstone": {
+			"textures": "textures/blocks/hackstone"
+		},
+		"charred_smooth_stone": {
+			"textures": "textures/blocks/charred_smooth_stone"
+		}
+	}
+}

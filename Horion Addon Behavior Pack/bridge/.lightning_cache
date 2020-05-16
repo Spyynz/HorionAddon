@@ -1,0 +1,72 @@
+{
+	"block": {
+		"BP/blocks/horion_block.json": {
+			"identifiers": [
+				"horion:horion_block"
+			]
+		},
+		"BP/blocks/hackstone.json": {
+			"identifiers": [
+				"horion:hackstone"
+			]
+		},
+		"BP/blocks/charred_smooth_stone.json": {
+			"identifiers": [
+				"horion:charred_smooth_stone"
+			]
+		},
+		"BP/blocks/horion_crystal.json/horion_ore.json": {
+			"identifiers": [
+				"horion:horion_ore"
+			]
+		},
+		"BP/blocks/horion_crystal.json": {
+			"identifiers": [
+				"horion:horion_crystal"
+			]
+		}
+	},
+	"item": {
+		"BP/items/horion_shard.json": {
+			"identifiers": [
+				"horion:horion_shard"
+			]
+		},
+		"BP/items/gamersword.json": {
+			"identifiers": [
+				"horion:gamersword"
+			]
+		},
+		"BP/items/gamer_ingot.json": {
+			"identifiers": [
+				"horion:gamer_ingot"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/DLL_Not_Loaded.json": {
+			"events": [],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"horion:DLL_Not_Loaded"
+			],
+			"animation_references": [],
+			"families": []
+		}
+	},
+	"client_entity": {
+		"RP/ RS/entity/DLL_Not_Loaded.json": {
+			"identifiers": [
+				"horion:DLL_Not_Loaded"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [],
+			"material_references": [],
+			"geometry_references": [],
+			"geometry_identifiers": []
+		}
+	}
+}

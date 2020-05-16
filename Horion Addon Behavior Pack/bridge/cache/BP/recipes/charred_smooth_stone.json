@@ -1,0 +1,108 @@
+{
+	"file_path": "C:\\Users\\eddyc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Horion Addon\\recipes\\charred_smooth_stone.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "c11d12a5_ed15_49b1_8e73_8e12f9c182f2",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "horion:furnace_charred_smooth_stone"
+						},
+						"tags": [
+							"furnace"
+						],
+						"input": "minecraft:smooth_stone",
+						"output": "horion:charred_smooth_stone"
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "horion:furnace_charred_smooth_stone"
+						},
+						"tags": [
+							"furnace"
+						],
+						"input": "minecraft:smooth_stone",
+						"output": "horion:charred_smooth_stone"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:furnace_charred_smooth_stone"
+							},
+							"tags": [
+								"furnace"
+							],
+							"input": "minecraft:smooth_stone",
+							"output": "horion:charred_smooth_stone"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "horion:furnace_charred_smooth_stone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:furnace_charred_smooth_stone"
+							},
+							"tags": [
+								"furnace"
+							],
+							"input": "minecraft:smooth_stone",
+							"output": "horion:charred_smooth_stone"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"array": [
+							"furnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:furnace_charred_smooth_stone"
+							},
+							"tags": [
+								"furnace"
+							],
+							"input": "minecraft:smooth_stone",
+							"output": "horion:charred_smooth_stone"
+						},
+						"data": "minecraft:smooth_stone",
+						"key": "input"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "horion:furnace_charred_smooth_stone"
+							},
+							"tags": [
+								"furnace"
+							],
+							"input": "minecraft:smooth_stone",
+							"output": "horion:charred_smooth_stone"
+						},
+						"data": "horion:charred_smooth_stone",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}
